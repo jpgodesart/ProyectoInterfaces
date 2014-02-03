@@ -1,0 +1,43 @@
+/* 
+    Document   : playas
+    Created on : 03-feb-2014, 9:31:31
+    Author     : al037721
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+    /*background-image: url('../images/fondo.jpg'); 
+    background-repeat:no-repeat;
+    background-size: auto;*/
+    background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.1, #6E9FB8),
+	color-stop(1, #245269)
+);
+background-image: -o-linear-gradient(bottom, #6E9FB8 10%, #245269 100%);
+background-image: -moz-linear-gradient(bottom, #6E9FB8 10%, #245269 100%);
+background-image: -webkit-linear-gradient(bottom, #6E9FB8 10%, #245269 100%);
+background-image: -ms-linear-gradient(bottom, #6E9FB8 10%, #245269 100%);
+background-image: linear-gradient(to bottom, #6E9FB8 10%, #245269 100%);
+}
+
+#container{
+    background: white;
+    margin: auto;
+    margin-top: 3%;
+    width: 1000px;
+    height: 1000px
+}
+
+#logo>img{
+    width: 100%;
+    height: 50px;
+}
+
+.navbar-inverse{
+    background: #101010;
+    border-radius: 0;
+  
+}
