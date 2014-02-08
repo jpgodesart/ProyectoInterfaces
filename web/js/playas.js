@@ -11,5 +11,17 @@ $(document).ready(function() {
         $("#vid1").css("display", "none");
         $("#botonvideo").css("display", "block");
     });
+
+
+    $("#valencia").click(function() {
+        $("#cuerpo").load("valencia.html");
+    });
+    $("#alicante").click(function() {
+        $("#cuerpo").load("alicante.html");
+    });
+    $("#castellon").click(function() {
+        $("#cuerpo").load("castellon.html");
+    });
+
 });
 
